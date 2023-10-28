@@ -22,7 +22,7 @@ for (let i = 0; i < num; i++) {
         if (num % count == 0 && count != num || num == 1) {
             console.log(`El número ${num} no es primo`);
             break;
-        } else if (count == num && count % num == 0) {
+        } else if (count == num && num % count == 0) {
             console.log(`El número ${num} es primo`);
         }
         count++;

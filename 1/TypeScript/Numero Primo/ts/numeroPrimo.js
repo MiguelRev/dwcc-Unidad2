@@ -18,7 +18,7 @@ for (var i = 0; i < num; i++) {
             console.log("El n\u00FAmero ".concat(num, " no es primo"));
             break;
         }
-        else if (count == num && count % num == 0) {
+        else if (count == num && num % count == 0) {
             console.log("El n\u00FAmero ".concat(num, " es primo"));
         }
         count++;
